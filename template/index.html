@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/style.css')}}">
+    <script src="https://kit.fontawesome.com/6d22c223fa.js" crossorigin="anonymous"></script>
+    <title>Ingreso (PRUEBA SUNNYAPP)</title>
+</head>
+<body>
+    <div class="fondo">
+        <div class="content-form login">
+        <h2>Iniciar Sesión</h2>
+        
+        {% if mensaje %}
+        {{ mensaje }}
+        {% endif %}
+
+        {% if mensaje2 %}
+        {{ mensaje2 }}
+        {% endif %}
+
+        {% if mensaje3 %}
+        {{ mensaje3 }}
+        {% endif %}
+
+        <form action="acceso-login" method="post">
+            <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <label for="InputUsuario">Usuario</label>
+                <input type="user" placeholder="Usuario" name="txtUsuario" required>
+            </div>
+
+            <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                <label for="InputPassword">Contraseña</label>
+                <input type="password" placeholder="Contraseña" name="txtPassword" required>
+            </div>
+
+            <button type="submit" class="dbtn">Iniciar Sesión</button>
+
+            <div class="registrar-link">
+                <p>¿No tienes cuenta? <a href="registro">Registrate aquí</a></p> 
+            </div>
+        </form>
+        </div>
+    </div>    
+</body>
+</html>

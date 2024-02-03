@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(SUNNYAPP-FONDO.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo {
+    position: relative;
+    width: 450px;
+    height: 500px;
+    background-color: #ffffff38;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 50px 25px 50px 25px;
+}
+
+.fondo1 {
+    position: relative;
+    width: 90%;
+    height: 600px;
+    background-color: #ffffff13;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 50px 25px 50px 25px;
+}
+
+.content-form h2{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: center;
+}
+
+.input-box label{
+    position: relative;
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    color: #000;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom: 3px solid #fff;
+    border-radius: 5px;
+    backdrop-filter: blur(50px);
+    outline: none;
+    font-size: 1em;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0 15px 0;
+    font-weight: 500;
+}
+
+.input-box ::placeholder{
+    color: #00000041;
+}
+
+.input-box .icon{
+    position: relative;
+    font-size: 1em;
+    color: #000;
+}
+
+.dbtn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+.registrar-link{
+    font-size: .9em;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.registrar-link p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.registrar-link p a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.login-link{
+    font-size: .9em;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.login-link p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-link p a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.sesion{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 600;
+}
+
+.container table{
+    color: #000;
+    font-size: .9em;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.container thead{
+    background: #b3b3b3;
+    color: #000000;
+    font-size: 1em;
+}
+
+.container th{
+    padding: 5px 20px;
+    font-weight: 700;
+    border: solid 2px rgba(0, 0, 0, 1);
+}
+
+.container tbody{
+    background: #fff;
+    color: #000;
+    font-size: 1em;
+}
+
+.container td{
+    padding: 5px 20px;
+    font-weight: 500;
+    border: solid 2px rgba(0, 0, 0, 1);
+}
+
+.add-datos{
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #000;
+    font-size: .9em;
+    font-weight: 600;
+}
